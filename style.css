@@ -40,7 +40,7 @@ body{
     position: relative;
     top: 200px;
     width: 414px;
-    height: 100vh;
+    height: calc(100vh - 200px);
 
     background: linear-gradient(180deg, #ffffff 10%, #BEBFC0 116.58%);
     border-radius: 20px 20px 0px 0px;
