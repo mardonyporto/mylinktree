@@ -18,13 +18,13 @@ body{
 
     display: flex;
     position: absolute;
-    top: -170px;
-    left: 7px;
+    top: -205px;
+    left: -40px;
 }
 
 .card .fundo .bg{
 
-    width: 414px;
+    width: 500px;
 }
 
 .container{
@@ -43,7 +43,7 @@ body{
     height: 100vh;
 
     background: linear-gradient(180deg, #ffffff 10%, #BEBFC0 116.58%);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .card .avatar{
