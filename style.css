@@ -14,21 +14,25 @@ body{
 
 }
 
-.fundo{
+.fundo{ 
 
+    /* Container da animação */
     display: flex;
     position: absolute;
-    top: -205px;
+    top: -200px;
     left: -40px;
+    z-index: -1;
 }
 
-.card .fundo .bg{
+.card .fundo .bg{ 
 
+    /* Animação */
     width: 500px;
 }
 
 .container{
 
+    /* Container Geral */
     display: flex;
     width: 100%;
     justify-content: center;
@@ -37,8 +41,9 @@ body{
 
 .card {
 
+    /* Fundo Branco/CARD */
     position: relative;
-    top: 200px;
+    top: 180px;
     width: 414px;
 
     height: calc(100vh - 130px);
@@ -49,6 +54,7 @@ body{
 
 .card .avatar{
 
+    /* Foto de Perfil/AVATAR */
     position: absolute;
     left: 161px;
     top: -45px;
@@ -64,6 +70,7 @@ body{
 
 .card .nome{
 
+    /* Nome do Usuário */
     display: flex;
     position: absolute;
     width: 100%;
@@ -78,6 +85,7 @@ body{
 
 .card .descricao{
 
+    /* Descrição do Usuário */
     display: flex;
     position: absolute;
     width: 100%;
@@ -93,6 +101,7 @@ body{
 
 .categoria {
 
+    /* Título das Catagorías */
     display: inline-block;
     position: absolute;
     width: fit-content;
@@ -105,18 +114,21 @@ body{
 
 .categoria:nth-child(1){
 
+    /* Posição da categoria 1 - Minhas Redes */
     left: 45px;
     top: 130px;
 }
 
 .categoria:nth-child(2){
 
+    /* Posição da categoria 2 - Contatos */
     right: 61px;
     top: 130px;
 }
 
 .categoria:nth-child(3){
 
+    /* Posição da categoria 3 - Meus Links */
     display: flex;
     top: 314px;
     width: 100%;
@@ -125,24 +137,27 @@ body{
 
 .categoria:nth-child(4){
 
+    /* Posição da categoria 4 - Indicação de Vídeo */
     display: flex;
     top: 550px;
     width: 100%;
-    left: 16px;
+    justify-content: center;
+    /*left: 16px;*/
 
 }
 
 .redes{
 
+    /* Container da PRIMEIRA linha horizontal de ícones. Categoria Minhas Redes */
     position: absolute;
     display: flex;
     top: 169px; 
 
-    justify-content: left;
 }
 
 .redes .icone{
 
+    /* Formatação da PRIMEIRA linha horizontal de ícones. Categoria Minhas Redes */
     flex-direction: row;
 
     margin: 0px 0px 0px 16px;
@@ -156,6 +171,7 @@ body{
 
 .redes2{
 
+    /* Container da SEGUNDA linha horizontal de ícones. Categoria Minhas Redes */
     position: absolute;
     display: flex;
     top: 231px;
@@ -163,6 +179,7 @@ body{
 
 .redes2 .icone2{
 
+    /* Formatação da SEGUNDA linha horizontal de ícones. Categoria Minhas Redes */
     flex-direction: row;
 
     margin: 0px 0px 0px 16px;
@@ -174,10 +191,21 @@ body{
     border: 2px solid white;
 }
 
+
 .contatos .telefone{
+
+    /* Formatação campo TELEFONE - Categoria Contatos */
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 14px;
 
     position: relative;
     display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
 
     top: 172px;
     left: 217px;
@@ -189,31 +217,20 @@ body{
     border-radius: 10px;
 }
 
-.contatos .telefone{
-
-    justify-content: center;
-    align-items: center;
-
-    font-family: 'Lato';
-    font-weight: 300;
-    font-size: 14px;
-
-    color: #FFFFFF;
-}
-
 .contatos .email{
 
-    justify-content: center;
-    align-items: center;
-
+    /* Formatação campo EMAIL da Categoria Contatos */
     font-family: 'Lato';
     font-weight: 300;
     font-size: 14px;
-
-    color: #FFFFFF;
 
     position: relative;
     display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
 
     top: 189px;
     left: 217px;
@@ -227,6 +244,7 @@ body{
 
 .grupolinks{
 
+    /* Container dos botões da Categoria MEUS LINKS */
     display: grid;
     position: relative;
     top: 255px;
@@ -237,6 +255,7 @@ body{
 
 .links{
 
+    /* Formatação dos botões da Categoria MEUS LINKS */
     width: 281px;
     height: 45px;
     margin: 8px;
@@ -261,12 +280,14 @@ body{
 
 .links:hover{
 
+    /* Hover dos botões da Categoria MEUS LINKS */
     box-shadow: inset 281px 0px 0px #06a0f9;
     cursor: pointer;
     color: black;
 }
  .video{
 
+    /* Formatação do VÍDEO da INDICAÇÃO DE VÍDEO */
     position: absolute;
     top: 590px;
 
