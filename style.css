@@ -18,7 +18,7 @@ body{
     /* Container da animação */
     display: flex;
     position: absolute;
-    top: -200px;
+    top: -190px;
     left: -40px;
     z-index: -1;
 }
@@ -35,6 +35,7 @@ body{
     display: flex;
     width: 100%;
     height: 100vh;
+    
     justify-content: center;
     align-items: center;
 }
@@ -43,10 +44,10 @@ body{
 
     /* Fundo Branco/CARD */
     position: relative;
-    top: 150px;
+    top: 70px;
     width: 414px;
 
-    height: 825px;
+    height: 835px;
 
     /*height: calc(100vh - 200px);*/
     background: #FFFFFF;
