@@ -8,20 +8,19 @@
     text-decoration: none;
 }
 
-.fundo{
+.card .fundo{
 
     display: flex;
     position: absolute;
     justify-content: center;
-    top: -20px;
+    top: -170px;
 }
 
-.fundo .bg{
+.card .fundo .bg{
 
-    width: 600px;
-    height: 100%;
+    width: 400px;
+    right: 5px;
 }
-
 
 .container{
 
@@ -29,7 +28,6 @@
     width: 100%;
     height: 100vh;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
     background: #000B1C;
 }
@@ -42,6 +40,7 @@
 
     background: linear-gradient(180deg, #ffffff 10%, #BEBFC0 116.58%);
     border-radius: 20px 20px 20px 20px;
+
 }
 
 .card .avatar{
